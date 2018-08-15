@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    domain-registry (0.1.0)
+    domain_registry (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -26,7 +26,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.16)
-  domain-registry!
+  domain_registry!
   minitest (~> 5.0)
   nokogiri
   pry-byebug

@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "domain_registry/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "domain-registry"
+  spec.name          = "domain_registry"
   spec.version       = Domain::Registry::VERSION
   spec.authors       = ["Nakamura Kosuke"]
   spec.email         = ["ncl0709@gmail.com"]
 
   spec.summary       = %q{Domain Registry database}
   spec.description   = %q{Domain Registry database}
-  spec.homepage      = "https://github.com/litencatt/domain-registry"
+  spec.homepage      = "https://github.com/litencatt/domain_registry"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
